@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="User Subscriptions" max_length="40" name="x_wec_product_subs_product_subscriptions_table" type="collection">
+        <element label="is deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Change Request Email" max_length="40" name="u_change_email" type="boolean"/>
+        <element label="Change Request SMS" max_length="40" name="u_change_sms" type="boolean"/>
+        <element label="Outage/Major Incident Email" max_length="40" name="u_high_email" type="boolean"/>
+        <element label="Outage/Major Incident SMS" max_length="40" name="u_high_sms" type="boolean"/>
+        <element label="Minor Incident Email" max_length="40" name="u_low_email" type="boolean"/>
+        <element label="Minor Incident SMS" max_length="40" name="u_low_sms" type="boolean"/>
+        <element label="Degraded Performance Email" max_length="40" name="u_medium_email" type="boolean"/>
+        <element label="Degraded Performance SMS" max_length="40" name="u_medium_sms" type="boolean"/>
+        <element label="Name" mandatory="true" max_length="32" name="u_name_sub" reference="sys_user" reference_qual="active=true^sys_class_name=sys_user^EQ" reference_qual_condition="active=true^sys_class_name=sys_user^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name.Mobile_Phone" max_length="40" name="u_name_sub_mobile_phone" type="string"/>
+        <element label="Problem Email" max_length="40" name="u_problem_email" type="boolean"/>
+        <element label="Problem SMS" max_length="40" name="u_problem_sms" type="boolean"/>
+        <element label="Product" mandatory="true" max_length="32" name="u_product_sub" reference="x_wec_product_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name.Product Class" max_length="40" name="u_product_sub_sys_class_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name.Product Type" max_length="40" name="u_product_sub_u_product_type" type="string"/>
+        <index name="index">
+            <element name="u_name_sub"/>
+        </index>
+        <index name="index2">
+            <element name="u_product_sub"/>
+        </index>
+    </element>
+</database>

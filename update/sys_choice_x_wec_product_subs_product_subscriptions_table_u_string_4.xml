@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_4" table="x_wec_product_subs_product_subscriptions_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_wec_product_subs_product_subscriptions_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>jason.lindsey@weather.com</sys_created_by>
+            <sys_created_on>2016-07-06 12:09:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8b4f81c40fac220034457d4ce1050ed0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jason.lindsey@weather.com</sys_updated_by>
+            <sys_updated_on>2016-07-06 12:09:23</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_wec_product_subs_product_subscriptions_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>jason.lindsey@weather.com</sys_created_by>
+            <sys_created_on>2016-07-06 12:09:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>034f81c40fac220034457d4ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jason.lindsey@weather.com</sys_updated_by>
+            <sys_updated_on>2016-07-06 12:09:23</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>test</label>
+            <language>en</language>
+            <name>x_wec_product_subs_product_subscriptions_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>jason.lindsey@weather.com</sys_created_by>
+            <sys_created_on>2016-07-06 12:09:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c34f81c40fac220034457d4ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jason.lindsey@weather.com</sys_updated_by>
+            <sys_updated_on>2016-07-06 12:09:23</sys_updated_on>
+            <value>test</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_wec_product_subs_product_subscriptions_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>jason.lindsey@weather.com</sys_created_by>
+            <sys_created_on>2016-07-06 12:09:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>874f81c40fac220034457d4ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jason.lindsey@weather.com</sys_updated_by>
+            <sys_updated_on>2016-07-06 12:09:23</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_4</element>
+            <name>x_wec_product_subs_product_subscriptions_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jason.lindsey@weather.com</sys_created_by>
+            <sys_created_on>2016-07-06 12:09:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0f4f81c40fac220034457d4ce1050ed0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>u_string_4</sys_name>
+            <sys_package display_value="User Subscriptions" source="x_wec_product_subs">1fb960730fd4220034457d4ce1050e89</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="User Subscriptions">1fb960730fd4220034457d4ce1050e89</sys_scope>
+            <sys_update_name>sys_choice_x_wec_product_subs_product_subscriptions_table_u_string_4</sys_update_name>
+            <sys_updated_by>jason.lindsey@weather.com</sys_updated_by>
+            <sys_updated_on>2016-07-08 14:12:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
